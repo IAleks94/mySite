@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #20202D;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 945px;
+  margin: auto;
+}
+
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+
+.social-link {
+  margin-left: 20px;
+}
+
+.hero-subtitle {
+  display: inline-block;
+  font-style: 24px;
+  line-height: 28px;
+  color: #FFBB01;
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 420px;
+}
+
+.button {
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  box-shadow: 0px 4px 0px #B68500;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  padding: 24px 42px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 38px;
+}
+
+.hero-avatar {
+  width: 389px;
+  height: 389px;
+  background-color: #fff;
+  border-radius: 50%;
+  background: url(../img/myavatar.jpg) no-repeat left top -80px;
+  background-size: 400px;
+  border: 13px solid white;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.section-title {
+  padding-top: 0;
+  padding-bottom: 84px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/* features */
+
+.features {
+  background-color: black;
+}
