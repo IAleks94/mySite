@@ -8,6 +8,7 @@
   <title>Андрей Александров - учусь програмировать</title>
   <link rel="stylesheet" href="css\style.css" />
   <link rel="stylesheet" href="css\animate.css">
+  <link rel="stylesheet" href="css\swiper.min.css">
 </head>
 
 <body>
@@ -50,9 +51,9 @@
   <main>
     <section class="features section">
       <div class="container">
-        <h2 class="section-title wow  fadeInDown" data-wow-offset = '100'>Со мной удобно работать</h2>
+        <h2 class="section-title wow  fadeInDown" data-wow-offset='100'>Со мной удобно работать</h2>
         <div class="features-block">
-          <div class="features-item wow fadeInLeft" data-wow-offset = '200' data-wow-duration = "2s">
+          <div class="features-item wow fadeInLeft" data-wow-offset='200' data-wow-duration="2s">
             <img src="img\features\offer-img.svg" alt="По договору" class="features-image" />
             <h3 class="features-title">По договору</h3>
             <p class="features-text">
@@ -60,7 +61,7 @@
               акты. Работаю как ИП без НДС.
             </p>
           </div>
-          <div class="features-item wow fadeIn" data-wow-offset = '200' data-wow-delay="0.5s" data-wow-duration = "2s">
+          <div class="features-item wow fadeIn" data-wow-offset='200' data-wow-delay="0.5s" data-wow-duration="2s">
             <img src="img\features\deadline-img.svg" alt="Точно в срок" class="features-image" />
             <h3 class="features-title">Точно в срок</h3>
             <p class="features-text">
@@ -68,7 +69,7 @@
               просрочу — плачу неустойку.
             </p>
           </div>
-          <div class="features-item wow fadeInRight" data-wow-offset = '200' data-wow-duration = "2s">
+          <div class="features-item wow fadeInRight" data-wow-offset='200' data-wow-duration="2s">
             <img src="img\features\agreement-img.svg" alt="Ценник под вас" class="features-image" />
             <h3 class="features-title">Ценник под вас</h3>
             <p class="features-text">
@@ -76,7 +77,7 @@
               объясню, как складывается цена.
             </p>
           </div>
-          <div class="features-item wow fadeInUp" data-wow-offset = '200' data-wow-duration = "2s">
+          <div class="features-item wow fadeInUp" data-wow-offset='200' data-wow-duration="2s">
             <img src="img\features\steps-img.svg" alt="Премежуточные итоги" class="features-image" />
             <h3 class="features-title">Премежуточные итоги</h3>
             <p class="features-text">
@@ -84,7 +85,7 @@
               сроком.
             </p>
           </div>
-          <div class="features-item wow fadeInUp" data-wow-offset = '200' data-wow-duration = "2s">
+          <div class="features-item wow fadeInUp" data-wow-offset='200' data-wow-duration="2s">
             <img src="img\features\storage-img.svg" alt="Хостинг и домен " class="features-image" />
             <h3 class="features-title">Хостинг и домен</h3>
             <p class="features-text">
@@ -92,7 +93,7 @@
               хостинг на год + SSL сертификат.
             </p>
           </div>
-          <div class="features-item wow fadeInUp" data-wow-offset = '200' data-wow-duration = "2s">
+          <div class="features-item wow fadeInUp" data-wow-offset='200' data-wow-duration="2s">
             <img src="img\features\conversation-img.svg" alt="Не брошу после сдачи" class="features-image" />
             <h3 class="features-title">Не брошу после сдачи</h3>
             <p class="features-text">
@@ -105,21 +106,208 @@
       <!-- /.container -->
     </section>
     <!-- /.features -->
+    <section class="section projects">
+      <div class="container">
+        <h2 class="section-title">Последние проекты</h2>
+
+        <div class="swiper-container projects-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide projects-slide">
+              <img src="img\slider\project-img.png" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                <div class="project-time">
+                  <img src="img\slider\time-icon.svg" alt="time-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Cроки</h4>
+                    <p class="project-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img src="img\slider\cost-icon.svg" alt="cost-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">14 000 рублей</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img src="img\slider\feedback-icon.svg" alt="feedback-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Мне понравилось работать с Андреем,
+                      потому что он все время был на связи и предлагал свои решения,
+                      когда мы заходили в тупик с дизайном. Мне нужны были закрывающие
+                      документы для бухгалтерии, и Андрей — тот редкий фрилансер, у
+                      которого с документами все в порядке</p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text -->
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img src="img\slider\trest8.png" alt="Сайт строительной фирмы “ ОАО Строительный трест №8”"
+                class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Сайт строительной фирмы “ОАО Строительный трест №8”</h3>
+                <div class="project-time">
+                  <img src="img\slider\time-icon.svg" alt="time-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Cроки</h4>
+                    <p class="project-paragraph">2 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img src="img\slider\cost-icon.svg" alt="cost-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">7 000 рублей</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img src="img\slider\feedback-icon.svg" alt="feedback-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Работа выполнена вдумчиво, тщательно,
+                      творчески, профессионально и быстро. Очень довольны!</p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text -->
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img src="img\slider\7745.png" alt="Сайт онлайн магазина “7745”" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Сайт онлайн магазина “7745”</h3>
+                <div class="project-time">
+                  <img src="img\slider\time-icon.svg" alt="time-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Cроки</h4>
+                    <p class="project-paragraph">8 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img src="img\slider\cost-icon.svg" alt="cost-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">35 000 рублей</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img src="img\slider\feedback-icon.svg" alt="feedback-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Андрей, спасибо большое за такую чудесную работу! Мы очень рады,
+                      что работали именно с Вами.
+                      Сайт получился просто нереально красивым. Мы сами из Израиля и мы очень переживали как это все
+                      можно проверить или так, чтоб нас не обманули. И попали именно к правильному дизайнеру! Всем
+                      рекомендую детать заказы только у него. Очень быстро работает, вмиг отвечает на какие-то
+                      интересующии нас вопросы. Сколько нужно переделывать (по нашим прихотям:) ) столько и делает.
+                      Очень отзывчивый и талантливый.</p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text -->
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img src="img\slider\vetliva.png" alt="Блога о путешествиях “Vetliva”" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">Блога о путешествиях “Vetliva”</h3>
+                <div class="project-time">
+                  <img src="img\slider\time-icon.svg" alt="time-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Cроки</h4>
+                    <p class="project-paragraph">3 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img src="img\slider\cost-icon.svg" alt="cost-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">12 000 рублей</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img src="img\slider\feedback-icon.svg" alt="feedback-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Большое спасибо за выполненную работу.
+                      Получилось то, что хотел с учетом всех пожеланий. Так же спасибо
+                      за дополнительные консультации :)</p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text -->
+            </div>
+            <div class="swiper-slide projects-slide">
+              <img src="img\slider\zaycev.fm.png" alt="Сайт онлайн музыки “zaycev.fm”" class="project-image">
+              <div class="project-text">
+                <h3 class="project-title">"Сайт онлайн музыки “zaycev.fm”</h3>
+                <div class="project-time">
+                  <img src="img\slider\time-icon.svg" alt="time-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Cроки</h4>
+                    <p class="project-paragraph">9 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img src="img\slider\cost-icon.svg" alt="cost-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Стоимость</h4>
+                    <p class="project-paragraph">38 000 рублей</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img src="img\slider\feedback-icon.svg" alt="feedback-icon" class="project-icon">
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Отзыв клиента</h4>
+                    <p class="project-paragraph">Сотрудничество с Андреем оставило положительные эмоции и качественный
+                      результат! Заказ был выполнен в срок, приятно, что к своему креативу и мнению, все наши пожелания
+                      были учтены и внесены!
+                      Рекомендуем</p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text -->
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="projects-pagination"></div>
+
+        </div>
+        <!-- /.container -->
+    </section>
   </main>
 
   <footer class="section">
     <div class="container">
-      <h2 class="section-title wow fadeInUp" data-wow-offset = '100' data-wow-duration = "1s">Свяжитесь со мной</h2>
+      <h2 class="section-title wow fadeInUp" data-wow-offset='100' data-wow-duration="1s">Свяжитесь со мной</h2>
       <div class="contacts-block">
-        <form action="#" class="contacts-form  wow fadeInLeft" data-wow-offset = '200' data-wow-duration = "2s">
+        <form action="#" class="contacts-form  wow fadeInLeft" data-wow-offset='200' data-wow-duration="2s">
           <h4 class="form-title">
             Можете просто оставить заявку, я позвоню вам сегодня
           </h4>
           <input type="text" class="input-name" placeholder="Ваше имя" />
-          <input type="text" class="input-phone" placeholder="Ваш телефон" />
+          <input type="tel" class="input-phone" placeholder="Ваш телефон" />
           <button class="button form-button">Бесплатная консультация</button>
         </form>
-        <div class="contacts-text wow fadeInRight" data-wow-offset = '200' data-wow-duration = "2s">
+        <div class="contacts-text wow fadeInRight" data-wow-offset='200' data-wow-duration="2s">
           <div class="contacts-data">
             <div class="contacts-phone">
               <h4 class="contacts-title">Телефон</h4>
@@ -154,7 +342,7 @@
           <!-- /.social-links -->
           <a href="#" class="contacts-policy">Политика конфиденциальности</a>
         </div>
-        
+
         <!-- /.contacts-text -->
       </div>
 
@@ -162,6 +350,7 @@
     </div>
   </footer>
   <script src=js\wow.min.js></script>
+  <script src=js\swiper.min.js></script>
   <script src=js\script.js></script>
 </body>
 
