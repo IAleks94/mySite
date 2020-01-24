@@ -57,6 +57,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   max-width: 420px;
+  padding-bottom: 45px;
 }
 
 .button {
@@ -67,8 +68,10 @@ body {
   padding: 24px 42px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 38px;
-}
+  text-decoration: none;
+  color: inherit;
+
+  }
 
 .hero-avatar {
   width: 390px;
