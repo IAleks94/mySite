@@ -7,10 +7,10 @@ img {
 }
 
 body {
-  background-color: #20202D;
+  background-color: #20202d;
   margin: 0;
   color: rgb(255, 255, 255);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -37,7 +37,7 @@ body {
   font-size: 0;
 }
 
-.social-link:hover img{
+.social-link:hover img {
   transform: scale(1.1);
 }
 
@@ -45,7 +45,7 @@ body {
   display: block;
   font-size: 24px;
   line-height: 28px;
-  color: #FFBB01;
+  color: #ffbb01;
   margin-bottom: 14px;
 }
 
@@ -65,8 +65,8 @@ body {
 }
 
 .button {
-  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
-  box-shadow: 4px 4px 0px #B68500;
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  box-shadow: 4px 4px 0px #b68500;
   border: none;
   border-radius: 5px 5px 10px 10px;
   padding: 24px 42px;
@@ -75,12 +75,13 @@ body {
   text-decoration: none;
   color: inherit;
   display: inline-block;
+}
 
-  }
-  .button:hover {
-    background: linear-gradient(180deg, #FDDE76 0%, #B68500 100%);
-    transform: scale(1.05);
-  }
+.button:hover {
+  background: linear-gradient(180deg, #fdde76 0%, #b68500 100%);
+  transform: scale(1.05);
+}
+
 .hero-avatar {
   width: 390px;
   height: 390px;
@@ -211,7 +212,6 @@ body {
   line-height: 150%;
 }
 
-
 .project-feedback {
   margin-top: 44px;
 }
@@ -226,14 +226,14 @@ body {
 .projects-bullet {
   width: 10px;
   height: 10px;
-  border: 2px solid #FFBB01;
+  border: 2px solid #ffbb01;
   display: inline-block;
   border-radius: 50%;
   margin: 0 5px 0 5px;
 }
 
 .projects-bullet-active {
-  background-color: #FFBB01;
+  background-color: #ffbb01;
 }
 
 /* contacts */
@@ -250,7 +250,7 @@ body {
 }
 
 input {
-  background: #F8F8F8;
+  background: #f8f8f8;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
   padding: 18px 20px;
@@ -300,11 +300,10 @@ input {
 .contacts-form {
   padding: 40px 35px 49px 35px;
   max-width: 380px;
-  background: #FFFFFF;
-  box-shadow: -5px 5px 0px #FFC41D;
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
   border-radius: 5px;
 }
-
 
 .contacts-phone,
 .contacts-email {
@@ -346,7 +345,7 @@ input {
   font-size: 15px;
   line-height: 18px;
   text-decoration-line: underline;
-  color: #A5A5A5;
+  color: #a5a5a5;
   display: inline-block;
   margin-top: 72px;
 }
@@ -412,7 +411,7 @@ input {
   }
 }
 
-@media(max-width: 564px) {
+@media (max-width: 564px) {
   .social-link {
     margin-left: 5px;
     margin-right: 5px;
@@ -440,7 +439,6 @@ input {
     height: 113px;
     border-width: 4px;
   }
-
 
   .hero-description {
     font-size: 14px;
@@ -535,5 +533,4 @@ input {
   .contacts-policy {
     margin-top: 26px;
   }
-
 }
