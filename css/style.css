@@ -80,7 +80,7 @@ body {
   .button:hover {
     background: linear-gradient(180deg, #FDDE76 0%, #B68500 100%);
     transform: scale(1.05);
-
+  }
 .hero-avatar {
   width: 390px;
   height: 390px;
